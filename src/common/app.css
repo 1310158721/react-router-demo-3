@@ -1,0 +1,37 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: lightgray;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+main {
+	width: 100%;
+	flex: 1;
+	background-color: rgba(0, 0, 0, .3);
+	display: flex;
+	flex-direction: row;
+}
+
+.main-left {
+	width: 200px;
+	height: 100%;
+	background-color: lightblue;
+}
+
+.main-right {
+	flex: 1;
+	height: 100%;
+	background-color: lightgreen;
+}
